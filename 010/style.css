@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+div {
+  width: 50%;
+  height: 60%;
+  border: 2px solid white;
+  border-radius: 20px;
+
+  background-color: aquamarine;
+  box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  justify-content: center;
+}
+
+.name {
+  font-size: 3rem;
+}
+
+.tel {
+  font-size: 1rem;
+}
+
+p {
+  width: 90%;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+  flex-wrap: wrap;
+}

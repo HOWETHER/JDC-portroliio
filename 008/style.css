@@ -1,0 +1,35 @@
+/* 1.전체선택자 */
+* {
+  margin: 0;
+  /* magin : 여백, 상속이 되지않는 속성
+  상속 : 부모요소에 적용하면 자식선택자에도 적용된다. */
+}
+/* 2.태그선택자=타입선택자 */
+p {
+  color: red;
+}
+body {
+  color: yellowgreen;
+  font-size: 12px;
+}
+a {
+  color: brown;
+}
+/* 3.클래스 선택자 */
+.odd-text {
+  color: yellow;
+  background-color: black;
+}
+
+/* 4. 아이디선택자 */
+#second-text {
+  color: rgb(31, 77, 77);
+}
+/* 자손선택자 */
+div p {
+  text-decoration: underline;
+}
+
+div > strong {
+  border: 3px solid red;
+}
